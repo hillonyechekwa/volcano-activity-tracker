@@ -17,8 +17,10 @@ function App() {
       )
       const { events } = await res.json()
       
-      setEventData = events
+      setEventData(events)
       setLoading(false)
+
+      console.log(events)
     }
   },[])
 

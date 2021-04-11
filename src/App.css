@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    padding: 30px;
+}
+
+.map{
+    width: calc(100vw - 80px);
+    height: 100vh;
+    position: relative;
+}
