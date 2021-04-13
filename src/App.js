@@ -20,7 +20,6 @@ function App() {
       setEventData(events)
       setLoading(false)
 
-      console.log(events)
     }
   },[])
 
@@ -32,3 +31,6 @@ function App() {
 }
 
 export default App;
+
+
+// TODO add text details to the frontend and also find out how to add d3 visuals or visualize the data. 

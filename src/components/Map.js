@@ -37,7 +37,7 @@ export default function Map({eventData}) {
                                         e.preventDefault();
                                         setLocationInfo(ev)}
                                     }>
-                                    <FontAwesomeIcon icon={faFire} size="s" style={{ color:"orange" }}/>
+                                    <FontAwesomeIcon icon={faFire} size="sm" style={{ color:"orange" }}/>
                                 </button>
                             </Marker>
                         }
